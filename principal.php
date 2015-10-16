@@ -1,7 +1,13 @@
+<?php
+require_once("connexionbdd.php");
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>Contenu principal</title>
 <meta charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 
