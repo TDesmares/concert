@@ -30,7 +30,7 @@ if (isset($_POST)){
 			header('Location: creerprojet.php');
 		}
 	else {
-		header('Location: scenarios.php');
+		header('Location: principal.php');
 		exit;
 }
 }

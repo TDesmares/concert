@@ -17,7 +17,10 @@
 		//boucle d'écriture du jeux d'enregistrement
 		if(mysqli_num_rows($resultat) !=0){
 			while($ligne=mysqli_fetch_assoc($resultat)){
-					echo "<div style='background-color:#ccc; margin:1em;'>".$ligne['titreprojet']."</div>";
+					echo "
+					<div style='background-color:#ccc; margin:1em;'>"
+					.$ligne['titreprojet'].
+					"</div>";
 
 				}
 
@@ -27,8 +30,8 @@
 			mysqli_free_result($resultat);
 
 		 ?>
-	<img src="icones/png/round62-1.png" alt="" onclick=""><br />
+
 	<a href="creerprojet.php">
-		<p>Ajouter un projet</p>
+		<img src="icones/png/round62-1.png" alt="ajouter un projet">
 	</a>
 </div>

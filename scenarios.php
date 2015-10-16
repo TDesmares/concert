@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
 <meta charset="utf-8_general_ci">
-<head><title> les scenarios du projet</title>
+<title> les scenarios du projet</title>
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<?php include("menu.php");
+<?php
+include("menu.php");
 include("donnee_scenarios.php");
 
 //inclusion des instruction de connexion;
@@ -34,7 +36,7 @@ if (isset($_POST)){
 			header('Location: creerprojet.php');
 		}
 	else {
-		header('Location: projet.php');
+		header('Location: principal.php');
 		exit;
 }
 }
