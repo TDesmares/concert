@@ -1,4 +1,6 @@
 <?php
+//inclusion des instruction de connexion
+require_once("connexionbdd.php");
 
 if (isset($_POST)){
 // Récupération des données du formulaire par paramètres POST et mises dans des variables
@@ -23,7 +25,7 @@ if (isset($_POST)){
 			header('Location: creerprojet.php');
 		}
 	else {
-		header('Location: principal.php');
+		header('Location: maps.php');
 		exit;
 }
 }

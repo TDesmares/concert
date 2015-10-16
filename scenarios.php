@@ -1,10 +1,9 @@
 <?php
-
+require_once("connexionbdd.php");
 include("menu.php");
 include("donnee_scenarios.php");
 
-//inclusion des instruction de connexion
-require_once("connexionbdd.php");
+
 ?>
 
 
@@ -21,6 +20,34 @@ require_once("connexionbdd.php");
 <form method="post" action="script-scenarios.php" enctype="multipart/form-data">
 <fieldset>
 	 <legend> Rentrez vos scenarii:</legend>
+
+		<?php
+		//préparation de la requête
+			$transaction="SELECT nbscenario FROM hi_debat";
+
+		//execution requête SQL
+			$nombrescenario=mysqli_query($connexion, $transaction);
+
+		//gestion de l'erreur
+			if(!$nombrescenario){
+				die("Probleme SQL: ".mysqli_error($connexion));
+
+			}
+		//boucle d'écriture du jeux d'enregistrement
+		if(mysqli_num_rows($nombrescenario) !=0){
+			$ligne=mysqli_fetch_assoc($nombrescenario);
+			while($ligne>0){
+					echo $ligne;
+
+				}
+
+			}
+			//liberation ressource memoire
+
+			mysqli_free_result($resultat);
+
+		 ?>
+
 		<p>Titre scenario:
 		<input type="text" name="titrescen" value"" /><br />
 		Positionner dans le temps votre projet <br />
