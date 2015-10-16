@@ -2,7 +2,7 @@
 <html>
 <meta charset="utf-8_general_ci">
 <head><title> les scenarios du projet</title>
-<link type="text/css" rel="stylesheet" href="/projet_logiciel/css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 <?php include("menu.php");

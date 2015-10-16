@@ -12,7 +12,7 @@ if (isset($_POST)){
 	$motdepasse = $_POST['password'];
 	/*$email = $_POST['email'];
 	$image = $_POST['imguser'];*/
-	
+
 //préparation de la requete et insertion dans une variable $requete
     $requete = sprintf("INSERT INTO hi_participant (iduser, login, name, surname, pseudo, mdp) VALUES (NULL,'%s','%s','%s','%s','%s')",
 		mysqli_real_escape_string($connexion, $login),
@@ -21,13 +21,13 @@ if (isset($_POST)){
 		mysqli_real_escape_string($connexion, $pseudo),
 		mysqli_real_escape_string($connexion, $motdepasse));
 
-//envoi de la requete 
+//envoi de la requete
 	$result = mysqli_query($connexion,$requete);
-	
+
 	//gestion de l'erreur
 	if(!$result){
-			
-			die("Problème :".mysqli_error($connexion));	
+
+			die("Problème :".mysqli_error($connexion));
 			header('Location: creercompte.php');
 		}
 	else {

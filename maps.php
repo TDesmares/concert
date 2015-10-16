@@ -3,7 +3,7 @@
 <head>
 <title></title>
 <meta charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="/projet_logiciel/css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
 
 </head>
 
@@ -14,7 +14,7 @@
 	<?php include("footer.php"); ?>
 </div>
 <div id="">
-	
+
 
 </div>
 

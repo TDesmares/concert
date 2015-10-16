@@ -16,7 +16,7 @@
           Rentrez le titre de votre projet et d&#xe9;crivez le succinctement&lt;/legend&gt;
 
           &lt;p&gt;
-            Nom du projet : &lt;input type=&quot;text&quot; value=&quot;#DEFAULT&quot; name=&quot;nomprojet&quot;&gt;&lt;br&gt;Description : 
+            Nom du projet : &lt;input type=&quot;text&quot; value=&quot;#DEFAULT&quot; name=&quot;nomprojet&quot;&gt;&lt;br&gt;Description :
             &lt;textarea name=&quot;projet&quot;&gt;
             &lt;/textarea&gt;
             &lt;br&gt;
@@ -30,24 +30,24 @@
             Titre scenario 1 : &lt;input type=&quot;text&quot; value=&quot;#DEFAULT&quot; name=&quot;prenom&quot;&gt;&lt;br&gt;Positionner dans le temps votre projet&lt;br&gt;&lt;input type=&quot;range&quot; max=&quot;100&quot; step=&quot;#DEFAULT&quot; min=&quot;1&quot; value=&quot;#DEFAULT&quot; name=&quot;curseur1&quot;&gt;&lt;br&gt;
             &lt;textarea value=&quot;&quot; name=&quot;description1&quot;&gt;
             &lt;/textarea&gt;
-            
+
           &lt;/p&gt;
           &lt;p&gt;
             Titre scenario 2 : &lt;input type=&quot;text&quot; max=&quot;100&quot; step=&quot;#DEFAULT&quot; min=&quot;1&quot; value=&quot;#DEFAULT&quot; name=&quot;pseudo&quot;&gt;&lt;br&gt;Positionner dans le temps votre projet&lt;br&gt;&lt;input type=&quot;range&quot; max=&quot;100&quot; step=&quot;#DEFAULT&quot; min=&quot;1&quot; value=&quot;#DEFAULT&quot; name=&quot;curseur2&quot;&gt;&lt;br&gt;
             &lt;textarea value=&quot;&quot; name=&quot;description2&quot;&gt;
             &lt;/textarea&gt;
-            
+
           &lt;/p&gt;
           &lt;p&gt;
             Titre scenario 3 : &lt;input type=&quot;text&quot; max=&quot;100&quot; step=&quot;#DEFAULT&quot; min=&quot;1&quot; value=&quot;#DEFAULT&quot; name=&quot;mdp&quot;&gt;&lt;br&gt;&lt;input type=&quot;range&quot; max=&quot;100&quot; step=&quot;#DEFAULT&quot; min=&quot;1&quot; value=&quot;#DEFAULT&quot; name=&quot;curseur3&quot;&gt;&lt;br&gt;
             &lt;textarea value=&quot;&quot; name=&quot;description3&quot;&gt;
             &lt;/textarea&gt;
-            
+
           &lt;/p&gt;
           &lt;/fieldset&gt;
           &lt;input type=&quot;submit&quot; se=&quot;se&quot; value=&quot;#DEFAULT&quot; connecter=&quot;#DEFAULT&quot;&gt;
           &lt;input type=&quot;reset&quot; annuler=&quot;annuler&quot; value=&quot;#DEFAULT&quot;&gt;
-          
+
         &lt;/form&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -61,11 +61,11 @@
 <richcontent TYPE="NODE">&lt;html&gt;
   &lt;body&gt;
     &lt;p&gt;
-      
+
     &lt;/p&gt;
     &lt;form name=&quot;connexion&quot;&gt;
       &lt;fieldset&gt;
-      
+
 
       &lt;p&gt;
         Utilisateur &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;user&quot;&gt;&lt;br&gt;Nom &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;nom&quot;&gt;&lt;br&gt;Prenom &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;prenom&quot;&gt;&lt;br&gt;PSeudo &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;pseudo&quot;&gt;&lt;br&gt;Mot de passe &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;mdp&quot;&gt;&lt;br&gt;email &lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;mdp&quot;&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; value=&quot;se connecter&quot;&gt;&lt;/fieldset&gt;
@@ -79,11 +79,11 @@
 <richcontent TYPE="NODE">&lt;html&gt;
   &lt;body&gt;
     &lt;p&gt;
-      
+
     &lt;/p&gt;
     &lt;form name=&quot;connexion&quot;&gt;
       &lt;fieldset&gt;
-      
+
 
       &lt;p&gt;
         Utilisateur &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;user&quot;&gt;&lt;br&gt;Mot de passe &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;mdp&quot;&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; value=&quot;se connecter&quot;&gt;&lt;/fieldset&gt;

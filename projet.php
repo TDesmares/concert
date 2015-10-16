@@ -7,7 +7,7 @@
 </div>
 
 <div id="ajoutprojet">
-	<img src="/projet_logiciel/icones/png/round62-1.png" alt="" onclick=""><br />
+	<img src="icones/png/round62-1.png" alt="" onclick=""><br />
 	<a href="creerprojet.php">
 		<p>Ajouter un projet</p>
 	</a>

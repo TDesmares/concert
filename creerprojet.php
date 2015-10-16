@@ -30,7 +30,7 @@ if(isset($_POST["submit"])) {
 <head>
 <title></title>
 <meta charset="utf-8_general_ci">
-<link type="text/css" rel="stylesheet" href="/projet_logiciel/css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
 
 </head>
 <body>

@@ -13,7 +13,7 @@
 	<div><a href="connexion.php" >Connexion</a> </div>
 </div>
 
-<div id="imgfond"><img src="images/img-fond.png" alt=""></div>
+<div id="imgfond"><img src="/images/img-fond.png" alt=""></div>
 
 <div id="idees_debat">
 	<h1>Débat d'idées</h1>
