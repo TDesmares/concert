@@ -1,16 +1,5 @@
 <h2>Tous les projets</h2>
 
-<div id="projet">
-	<span id="titre">titre</span>
-	<span id="descriptionP">description</span>
-
-</div>
-
-<script >
-
-</script>
-
-
 <div id="ajoutprojet">
 
 		<?php
@@ -28,7 +17,7 @@
 		//boucle d'écriture du jeux d'enregistrement
 		if(mysqli_num_rows($resultat) !=0){
 			while($ligne=mysqli_fetch_assoc($resultat)){
-					echo "<div style='background-color:#ccc'>".$ligne['titreprojet']."</div>";
+					echo "<div style='background-color:#ccc; margin:1em;'>".$ligne['titreprojet']."</div>";
 
 				}
 
