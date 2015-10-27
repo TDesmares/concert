@@ -36,10 +36,10 @@ include("donnee_scenarios.php");
 		//boucle d'écriture du jeux d'enregistrement
 		if(mysqli_num_rows($nombrescenario) !=0){
 			$ligne=mysqli_fetch_assoc($nombrescenario);
-			while($ligne>0){
+			/*for(nombrescenario>=0){
 					echo $ligne;
 
-				}
+				}*/
 
 			}
 			//liberation ressource memoire

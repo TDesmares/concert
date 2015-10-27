@@ -2,25 +2,6 @@
 require_once("connexionbdd.php");
 
 
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-// verifie si le fichier image est de type image ou pas
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
-    }
-
-
-
-
-  }
 
 
 ?>
@@ -51,8 +32,7 @@ if(isset($_POST["submit"])) {
 	<fieldset>
 
 	 <legend> Selectionner votre carte à uploader:</legend>
-    <input type="text" name="fileToUpload" />
-    <input type="submit" value="Upload Image" name="submit"><br />
+  
 
 	<p>Choississez votre nombre de scenarios</p>
 	<input type="number" name="nombre_scenario" value="" max="10" /><br />

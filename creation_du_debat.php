@@ -3,7 +3,7 @@
 //inclusion des instruction de connexion;
 require_once("connexionbdd.php");
 
-if (isset($_POST)){
+
         // Récupération des données du formulaire par paramètres POST et mises dans une variable
 	$titreprojet = $_POST['nomprojet'];
   $descriptionprojet = $_POST['descprojet'];
